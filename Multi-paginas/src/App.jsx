@@ -11,11 +11,11 @@ function App() {
   // Retorna a estrutura de roteamento usando o BrowserRouter
   return (
     <Router>
-      {/* Define as rotas usando o componente Routes */}
+      {/* Define as rotas usando o componente Routes  */}
       <Routes>
-        {/* Rota para a página Home com o componente associado */}
+        {/* Rota para a página Home com o componente associado  */}
         <Route path="/" element={<Home />} />        
-       {/* Rota para a página About com o componente associado */}
+       {/* Rota para a página About com o componente associado  */}
         <Route path="/sobre" element={<Sobre />} />
       </Routes>
     </Router>
